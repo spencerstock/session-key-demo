@@ -23,6 +23,9 @@
     "wagmi": "npm:@lukasrosario/wagmi@2.11.1-sessionkeys.6",
     "webauthn-p256": "npm:@lukasrosario/webauthn-p256@0.0.10-sessionkeys.6"
   },
+  "resolutions": {
+    "@coinbase/wallet-sdk": "npm:@lukasrosario/wallet-sdk@4.1.0-sessionkeys-local.1"
+  },
   "devDependencies": {
     "@biomejs/biome": "^1.1.2",
     "@simplewebauthn/types": "^10.0.0",
@@ -38,5 +41,6 @@
     "tailwindcss": "^3.4.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.9"
-  }
+  },
+  "packageManager": "pnpm@8.9.2+sha1.5f2fa48d614263457cf5d7fb7be8b878da318d87"
 }
